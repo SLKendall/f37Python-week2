@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Cosenza Cupcakes</title>
+</head>
+<body>
+    <header>
+        <h1>Cart</h1>   
+        <a href="http://localhost:8000/">
+            <button type="button" class="btn">Home</button>
+        </a>
+        <a href="order">
+            <button type="button" class="btn">Order</button>
+        </a>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <th>Cupcake</th>
+                <th>Price</th>
+            </thead>
+            <tbody> {% for cupcake in cupcakes %}
+                <tr>
+                    <td>{{ cupcake["name"] }}</td>
+                    <td>{{ cupcake["price"] }}</td>     
+                </tr>
+            {% endfor %}
+                <tr>
+                    <td>Total: {{ total  }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>

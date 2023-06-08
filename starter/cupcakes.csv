@@ -1,0 +1,6 @@
+size,name,price,flavor,frosting,sprinkles,filling
+large,PMS Cure,2.99,Chocolate,Salted Caramel,"['Candied Bacon', 'Chocolate', 'Cinnamon']",Fudge
+regular,Degular,1.99,Vanilla,Vanilla,[], Vanilla Creme
+regular,Neopolitan,3.99,Chocolate,Vanilla,[], Strawberry Compote
+regular,Decadent Dutch,1.99,Chocolate,Chocolate,"['White Chocolate', 'Dark Chocolate', 'Chocolate']", Chocolate
+large,Burger,3.99,Sesame,Cheese,"['Ketchup', 'Pickle chips', 'Shreddd Lettuce']", Cooked Ground Beef
